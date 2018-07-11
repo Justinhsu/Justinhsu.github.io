@@ -69,9 +69,34 @@
     background-color: #f4511e;
     color: #fff;
 }
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
 	</style>
 
-  <body>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
   	<div class="jumbotron">
   		<center>
   			<h1>Justin Hsu</h1>
@@ -92,18 +117,14 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#projects">Projects</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 
-<div class="container-fluid">
+<div id="projects" class="container-fluid">
   <div class="text-center">
     <h2>Projects</h2>
     <h4> </h4>
