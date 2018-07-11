@@ -125,9 +125,7 @@
   		<center>
   			<h1>Justin Hsu</h1>
   			<p>University of Michigan Computer Science Major</p> 
-  			<div class="input-group-btn">
-        		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Resume">Resume</button>
-      		</div>
+        	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Resume">Resume</button>
   		</center>
 	</div>
 
@@ -167,10 +165,30 @@
         <div class="panel-body">
           <p>Founder and Chief Technical Officer of entire engineering operation for open world Unity puzzle game, currently working with a team of over 5 people that include student programmers, math PHD students, and professional writers.</p>
         </div>
-        <div class="panel-footerGame">
+        <div class="panel-footer">
           <h3>Glass Walls</h3>
           <h4>Unity, C#</h4>
-          <button class="btn btn-lg">Open</button>
+          <button class="btn btn-lg" data-toggle="modal" data-target="#puzzleModal">Open</button>
+          
+          <!-- Modal -->
+  			<div class="modal fade" id="puzzleModal" role="dialog">
+    			<div class="modal-dialog">
+      				<!-- Modal content-->
+      				<div class="modal-content">
+        				<div class="modal-header">
+          					<button type="button" class="close" data-dismiss="modal">&times;</button>
+          					<h4 class="modal-title">Modal Header</h4>
+        				</div>
+        				<div class="modal-body">
+          					<p>Some text in the modal.</p>
+        				</div>
+        				<div class="modal-footer">
+          					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        				</div>
+      				</div>
+    			</div>
+  			</div>
+
         </div>
       </div> 
     </div> 
@@ -182,10 +200,10 @@
         <div class="panel-body">
           <p>Created AR Application that allows users to virtually place a spectrum of objects into the realworld.</p>
         </div>
-        <div class="panel-footerAR">
+        <div class="panel-footer">
           <h3>AReal</h3>
           <h4>Apple ARKit, Swift</h4>
-          <button class="btn btn-lg">Open</button>
+          <button class="btn btn-lg" data-toggle="modal" data-target="#arModal">Open</button>
         </div>
       </div> 
     </div> 
@@ -197,7 +215,7 @@
         <div class="panel-body">
           <p>Scrum Master for development team of four other programmers.</p>
         </div>
-        <div class="panel-footerLF">
+        <div class="panel-footer">
           <h3>LaserFox</h3>
           <h4>Unity, C#, Swift, Java</h4>
           <a href="https://itunes.apple.com/us/app/laser-fox/id1265722976?mt=8" class="btn btn-lg" role="button">IOS</a>
